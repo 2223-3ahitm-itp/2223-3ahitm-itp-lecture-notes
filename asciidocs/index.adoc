@@ -1,4 +1,4 @@
-= Index page
+= Lecture Notes 22/23 - 3ahitm - ITP
 ifndef::imagesdir[:imagesdir: images]
 
-image::img.png[]
+== 2022-09-19
