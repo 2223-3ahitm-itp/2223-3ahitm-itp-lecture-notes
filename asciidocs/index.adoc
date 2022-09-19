@@ -2,3 +2,7 @@
 ifndef::imagesdir[:imagesdir: images]
 
 == 2022-09-19
+
+* Einrichten von Discord
+
+=== Asciidoctor
