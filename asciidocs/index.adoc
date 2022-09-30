@@ -1,5 +1,7 @@
 = Lecture Notes 22/23 - 3ahitm - ITP
 ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:experimental:
 
 == 2022-09-19
 
@@ -7,5 +9,46 @@ ifndef::imagesdir[:imagesdir: images]
 
 === Asciidoctor
 
+
+=== Kreativitätstechniken
+
+* bis inkl. Mindmap
+
 == 2022-09-30
+
+=== Kreativitätstechniken
+
+==== Bionik
+
+==== Delphi-Methode
+
+=== Projektantrag
+
+==== Übung
+
+* Erstellen Sie einen Projektantrag in Asciidoctor - Format
+* Verwenden Sie hierzu die IntelliJ-Plugins
+** Asciidoctor
+** Plantuml
+
+////
+
+[plantuml,demo-cld,png]
+----
+@startuml
+class Person
+@enduml
+----
+////
+
+
+
+
+
+=== SWOT
+
+
+=== Projektziele
+
+image::effizienz-vs-effektivitaet.png[]
 
