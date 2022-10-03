@@ -52,3 +52,27 @@ class Person
 
 image::effizienz-vs-effektivitaet.png[]
 
+
+=== Asciidoctor Präambel
+
+----
+= Lecture Notes 22-23 / 1ahitm / SEW
+Thomas W. Stütz
+1.0.0, {docdate}: Softwareentwicklung
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+:experimental:
+
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Lehrplan
+----
