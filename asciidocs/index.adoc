@@ -52,6 +52,8 @@ class Person
 
 image::effizienz-vs-effektivitaet.png[]
 
+* Effektivität: Grad der Zielerreichung
+* Effizienz: Input/Output - Relation
 
 === Asciidoctor Präambel
 
@@ -76,3 +78,14 @@ ifdef::backend-html5[]
 
 == Lehrplan
 ----
+
+== 2022-10-07 (Fr.)
+
+=== Projektziele
+
+* operativ
+
+=== Stakeholder-Analyse
+
+=== Projektauftrag
+
