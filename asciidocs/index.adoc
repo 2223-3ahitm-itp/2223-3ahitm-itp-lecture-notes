@@ -89,3 +89,19 @@ ifdef::backend-html5[]
 
 === Projektauftrag
 
+== 2022-10-10 - Git
+
+* Commands
+
+** git add
+** git commit
+** git push
+** git clone
+** ...
+
+* Workflow
+
+* branches erstellen
+* mergen
+* auf frühere Version zurückgehen
+
