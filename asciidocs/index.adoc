@@ -105,3 +105,54 @@ ifdef::backend-html5[]
 * mergen
 * auf frühere Version zurückgehen
 
+== 2022-10-14
+
+=== Pflichtenheft
+
+
+|===
+|Phase |Beschreibung |Beispiel
+
+|Ausgangssituation
+|Beschreibung des Umfeldes und / oder des Unternehmens
+|Die HTL Leonding ist eine mittelgroße Schule im Zentralraum OÖ mit ca. 1200 Schülern
+
+|Istzustand
+|Beschreibung der Abteilung der Organisation bzw. des Geschäftsfalles
+|Die Abteilungen Informatik und Medientechnik haben einen beträchtlichen Programmieranteil
+
+|Problemstellung
+|Das Problem wird beschrieben *OHNE* die Lösung zu erwähnen
+a|
+* Neue Schülerinnen und Schüler (SuS) der 1. und 2.Jg. müssen umfangreiche Programmpakete installieren, um programmieren zu können
+* Die SuS sind angehalten, viele Beispiele zu programmieren.
+* Die einzelnen Lehrer haben Ihre eigenen Übungsbeispiele - neue Lehrer müssen sich Ihre eigenen Beispiele erarbeiten
+
+|Sollzustand / Ergebnis / Leistung / Aufgabenstellung
+|Welcher Zustand soll erreicht werden? Was soll zB erstellt werden?
+|Ein Portal ist zu erstellen in dem Schüler mit einer Online-IDE Beispiele aus einem vorhandenen Pool lösen können. Das Ergebnis dieses Projekts ist das fertige Portal.
+
+|Ziel
+|Leistungswirkung
+|Die SuS lernen einfacher eine Programmiersprache, ...
+|===
+
+
+=== Git Branching Rules
+
+* https://lutece.paris.fr/support/wiki/git.html[Git Branching Rules^]
+
+image::git-developer-branch.png[]
+
+
+== 2022-10-17 Projektanträge durchgesehen
+
+
+
+
+
+
+
+
+
+
