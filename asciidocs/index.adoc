@@ -147,8 +147,37 @@ image::git-developer-branch.png[]
 
 == 2022-10-17 Projektanträge durchgesehen
 
+.Bsp für einen Projektantrag
+|===
+|Kapitel |Beschreibung |Beispiel
+
+|Aufgabenbeschreibung
+|Was ist zu erstellen? Welche Funktionalität hat das zu erstellende Produkt?
+a|
+Eine mobile App ist zu erstellen mit folgender Funktionalität:
+
+* Anlegen von ToDo-Listen
+* Abhaken von ToDo-Listen
+* Versehen von einzelnen ToDo-Einträgen mit Datum und Zeit, damit der User automatisch erinnert werden kann.
+
+|Nutzen
+|Welche Leistungswirkung ergibt sich?
+a|
+Beim Einsatz im Schulunterricht:
+
+* Schüler vergessen keine (Haus-)Übungen und sonstiges mehr
+* Schüler lernen Zeitmanagement
+
+|Konsequenzen
+|Was passiert oder passiert nicht beim Fehlen des Produkts / Nichterstellen des Projekts
+|Die Noten von Schülern sind ev. schlechter
+
+|Pers. und finanz. Rahmenbedingungen
+|Was wird benötigt? Was ist ev. bereits vorhanden?
+|Ein Schülerteam aus ca. 4 Personen arbeitet ein Schuljahr dran.
 
 
+|===
 
 
 
