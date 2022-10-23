@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.17">
+<meta name="generator" content="Asciidoctor 2.0.18">
 <link rel="icon" type="image/png" href="themes/favicon.png">
 <title>Lecture Notes 22/23 - 3ahitm - ITP</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -85,10 +85,10 @@ code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;
 ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
 ul,ol{margin-left:1.5em}
 ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
-ul.square li ul,ul.circle li ul,ul.disc li ul{list-style:inherit}
-ul.square{list-style-type:square}
 ul.circle{list-style-type:circle}
 ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
 ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
 dl dt{margin-bottom:.3125em;font-weight:bold}
 dl dd{margin-bottom:1.25em}
@@ -467,6 +467,13 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#_2022_10_10_git">4. 2022-10-10 - Git</a></li>
+<li><a href="#_2022_10_14">5. 2022-10-14</a>
+<ul class="sectlevel2">
+<li><a href="#_pflichtenheft">5.1. Pflichtenheft</a></li>
+<li><a href="#_git_branching_rules">5.2. Git Branching Rules</a></li>
+</ul>
+</li>
+<li><a href="#_2022_10_17_projektanträge_durchgesehen">6. 2022-10-17 Projektanträge durchgesehen</a></li>
 </ul>
 </div>
 </div>
@@ -651,10 +658,92 @@ Thomas W. Stütz
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_2022_10_14"><a class="anchor" href="#_2022_10_14"></a>5. 2022-10-14</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_pflichtenheft"><a class="anchor" href="#_pflichtenheft"></a>5.1. Pflichtenheft</h3>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top">Phase</th>
+<th class="tableblock halign-left valign-top">Beschreibung</th>
+<th class="tableblock halign-left valign-top">Beispiel</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ausgangssituation</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beschreibung des Umfeldes und / oder des Unternehmens</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Die HTL Leonding ist eine mittelgroße Schule im Zentralraum OÖ mit ca. 1200 Schülern</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Istzustand</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Beschreibung der Abteilung der Organisation bzw. des Geschäftsfalles</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Die Abteilungen Informatik und Medientechnik haben einen beträchtlichen Programmieranteil</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Problemstellung</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Das Problem wird beschrieben <strong>OHNE</strong> die Lösung zu erwähnen</p></td>
+<td class="tableblock halign-left valign-top"><div class="content"><div class="ulist">
+<ul>
+<li>
+<p>Neue Schülerinnen und Schüler (SuS) der 1. und 2.Jg. müssen umfangreiche Programmpakete installieren, um programmieren zu können</p>
+</li>
+<li>
+<p>Die SuS sind angehalten, viele Beispiele zu programmieren.</p>
+</li>
+<li>
+<p>Die einzelnen Lehrer haben Ihre eigenen Übungsbeispiele - neue Lehrer müssen sich Ihre eigenen Beispiele erarbeiten</p>
+</li>
+</ul>
+</div></div></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Sollzustand / Ergebnis / Leistung / Aufgabenstellung</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Welcher Zustand soll erreicht werden? Was soll zB erstellt werden?</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ein Portal ist zu erstellen in dem Schüler mit einer Online-IDE Beispiele aus einem vorhandenen Pool lösen können. Das Ergebnis dieses Projekts ist das fertige Portal.</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Ziel</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Leistungswirkung</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">Die SuS lernen einfacher eine Programmiersprache, &#8230;&#8203;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="sect2">
+<h3 id="_git_branching_rules"><a class="anchor" href="#_git_branching_rules"></a>5.2. Git Branching Rules</h3>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://lutece.paris.fr/support/wiki/git.html" target="_blank" rel="noopener">Git Branching Rules</a></p>
+</li>
+</ul>
+</div>
+<div class="imageblock">
+<div class="content">
+<img src="images/git-developer-branch.png" alt="git developer branch">
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2022_10_17_projektanträge_durchgesehen"><a class="anchor" href="#_2022_10_17_projektanträge_durchgesehen"></a>6. 2022-10-17 Projektanträge durchgesehen</h2>
+<div class="sectionbody">
+
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2022-10-10 11:51:30 UTC
+Last updated 2022-10-23 09:43:06 UTC
 </div>
 </div>
 </body>
