@@ -147,7 +147,7 @@ image::git-developer-branch.png[]
 
 == 2022-10-17 Projektanträge durchgesehen
 
-.Bsp für einen Projektantrag
+.Bsp für einen Projektantrag (vgl. Buch S. 45)
 |===
 |Kapitel |Beschreibung |Beispiel
 
@@ -179,9 +179,13 @@ Beim Einsatz im Schulunterricht:
 
 |===
 
-
-
-
-
-
+////
+[%collapsible%close]
+====
+[plantuml,projektantraege1,png]
+----
+include::plantuml/projektantrag.puml[]
+----
+====
+////
 

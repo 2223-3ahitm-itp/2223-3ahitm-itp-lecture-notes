@@ -1,38 +1,65 @@
 @startmindmap
-
+<style>
+mindmapDiagram {
+  .green {
+    BackgroundColor lightgreen
+  }
+  .rose {
+    BackgroundColor #FFBBCC
+  }
+  .blue {
+    BackgroundColor lightblue
+  }
+}
+</style>
 * Projekte
 ** n/a
-*** Bauer Alina 5
-*** Kraml Friedrich 5
-*** Mahringer Daniel 5
-*** Brandstetter Elias 5
-*** Ursprung Christoph 4-
-*** Pölderl Laurin
-
-
-** Zeiterfassung
-*** Adelwöhrer Leonie 1
-** Organisationssoftware
-*** Fröller Jonas
-** Action-Server
-*** Hofer Jakob 1
-** Website mit Fragen
-*** Michel Jakob
-** Sozial-Dings
-*** Schlager Jakob 4-
-** DateOn
-*** Mayrhuber Lukas 4-
-** App zum Schnapsen
-*** Wagner Moritz 1
-** Website HTL Clubs
-*** Puchner Manuel 1
-** Hotel-Tinder
-*** Aschenberger Maria
-** Science-Fiction
-*** Wolfslehner Mattias 3
+***_ Bauer Alina 5
+***_ Kraml Friedrich 5
+***_ Mahringer Daniel 5
+***_ Brandstetter Elias 5
+***_ Ursprung Christoph 4-
 
 
 
+** Zeiterfassung <<blue>>
+***_ Adelwöhrer Leonie 1
+** Organisationssoftware <<rose>>
+***_ Fröller Jonas
+** Action-Server <<blue>>
+***_ Hofer Jakob 1
+** Website mit Fragen <<blue>>
+***_ Michel Jakob
+** Sozial-Dings <<rose>>
+***_ Schlager Jakob 4-
+** pdf-Server <<rose>>
+***_ Pölderl Laurin
+** DateOn <<rose>>
+***_ Mayrhuber Lukas 4-
+** App zum Schnapsen <<green>>
+***_ Wagner Moritz 1
+*** Kartenspiel-Lernapp <<green>>
+****_ Slabschi Maximilian
+** Website HTL Clubs <<green>>
+***_ Puchner Manuel 1
+** Hotel-Tinder <<blue>>
+***_ Aschenberger Maria
+** Mülltrennung <<rose>>
+***_ Wolfslehner Mattias 3
+** Stromverbrauchs-Visualisierung <<blue>>
+***_ Ruep Michael
+** Discord-Voice-Assistent <<green>>
+***_ Schnablinger Matthias
+** Night-Bar-Inventur und online-Besteller <<rose>>
+***_ Wakolbinger Nico
+** Fahrgemeinschaft <<green>>
+***_ Schnalzenberger Isabel
+** Google Maps Clone <<rose>>
+***_ Stieg Josef
+** Auftritt-Reminder <<rose>>
+***_ Stenz_ Michael
+** Browser-ToDo-List <<rose>>
+***_ Vlajic Stevan
 
 
 @endmindmap
