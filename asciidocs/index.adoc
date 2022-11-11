@@ -375,7 +375,7 @@ fc --> UC3
 
 https://google.github.io/styleguide/javaguide.html[Google Java Style Guide^]
 
-image::https://res.cloudinary.com/practicaldev/image/fetch/s--qjkpuQX6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://imgs.xkcd.com/comics/code_quality.png[]
+image::https://imgs.xkcd.com/comics/code_quality.png[]
 
 == 2022-11-xx
 
