@@ -189,3 +189,93 @@ include::plantuml/projektantrag.puml[]
 ====
 ////
 
+== 2022-11-04
+
+=== Semantische Versionierung
+
+https://semver.org/
+
+=== Projektzuteilung
+
+.Projektzuteilung
+[%collapsible]
+====
+[plantuml,png]
+----
+include::plantuml/projektantrag.puml[]
+----
+====
+
+
+=== UML
+
+* Was ist ein Modell?
+
+** *Ein Modell ist ein vereinfachtes Abbild der Realität unter Berücksichtigung eines besonderen Aspektes*
+** zB Datenmodell: Vereinfachte Darstellung einer Situation unter besonderer Berücksichtigung der Datenstrukturen
+** Ablaufdiagramm: Vereinfachte Darstellung einer Situation unter besonderer Berücksichtigung der Abläufe; zB Verschicken eines Pakets
+
+==== Objektorientierter Entwurf S.274
+
+==== Klassendiagramm
+
+[plantuml,demo,png]
+----
+@startuml
+class Person {
+  -firstname: String
+  -lastname: String
+  -{static} counter: int
+}
+@enduml
+----
+
+== 2022-11-07
+
+=== Klassendiagramm
+
+* Beziehungen
+** Assoziation
+** Aggregation
+** Komposition
+** Vererbung
+** Realisierung (Implementierung)
+
+* Beziehungen
+** unidirektional
+** bidirektional
+
+* Multiplizität
+** 1:*
+** 1:1
+** \*:*
+
+== 2022-11-xx
+
+image::projekt-leitfaden.png[]
+
+
+== 2022-11-11
+
+=== Notation
+
+* Schreib- oder Zeichenweise, wie etwas dargestellt wird. *Vereinbarung*, wie etwas gezeichnet oder geschrieben wird.
+
+=== Klassendiagramme (Fortsetzung)
+
+image::complete-vs-incomplete.png[]
+
+image::disjoint-vs-overlapping.png[]
+
+
+
+
+
+
+
+
+
+
+
+
+
