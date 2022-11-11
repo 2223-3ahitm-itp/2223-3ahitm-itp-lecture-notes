@@ -4,6 +4,13 @@ ifndef::imagesdir[:imagesdir: images]
 :experimental:
 :sectnums:
 :toc:
+ifdef::backend-html5[]
+
+// https://fontawesome.com/v4.7.0/icons/
+icon:file-text-o[link=https://raw.githubusercontent.com/2223-3ahitm-itp/2223-3ahitm-itp-lecture-notes/main/asciidocs/{docname}.adoc] ‏ ‏ ‎
+icon:github-square[link=https://github.com/2223-3ahitm-itp/2223-3ahitm-itp-lecture-notes] ‏ ‏ ‎
+icon:home[link=http://edufs.edu.htl-leonding.ac.at/~t.stuetz/hugo/2021/01/lecture-notes/]
+endif::backend-html5[]
 
 == 2022-09-19
 
@@ -374,6 +381,10 @@ image::https://res.cloudinary.com/practicaldev/image/fetch/s--qjkpuQX6--/c_limit
 
 image::projekt-leitfaden.png[]
 
+
+=== Wireframe vs Mockup vs Prototyp
+
+siehe https://www.deckweiss.at/post/wireframes-mockups-und-prototypen-was-wann-und-warum[Wireframes, Mockups und Prototypen: Was, wann und warum?^]
 
 
 
