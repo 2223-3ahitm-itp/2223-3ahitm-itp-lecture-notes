@@ -2,6 +2,8 @@
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :experimental:
+:sectnums:
+:toc:
 
 == 2022-09-19
 
@@ -250,10 +252,6 @@ class Person {
 ** 1:1
 ** \*:*
 
-== 2022-11-xx
-
-image::projekt-leitfaden.png[]
-
 
 == 2022-11-11
 
@@ -268,7 +266,113 @@ image::complete-vs-incomplete.png[]
 image::disjoint-vs-overlapping.png[]
 
 
+[plantuml,demo2,png]
+----
+@startuml
+'left to right direction
+class Person {
+}
 
+class Haustier {
+  besitzer: Person
+}
+
+Person "1" <-- "*" Haustier: < gehört zu
+@enduml
+----
+
+.Variante 1
+[plantuml,demo3,png]
+----
+@startuml
+left to right direction
+class Person {
+}
+
+class Firma {
+}
+
+class Aktie {
+}
+
+Person "*" -- "*" Firma
+(Person, Firma) .. Aktie
+
+@enduml
+----
+
+.Variante 2
+[plantuml,demo4,png]
+----
+@startuml
+left to right direction
+class Person {
+}
+
+class Firma {
+}
+
+class Aktie {
+  firma: Firma
+  person: Person
+}
+
+Person "1" <-- "*" Aktie
+Aktie "*" --> "1" Firma
+
+@enduml
+----
+
+==== Lesen von Beziehungen
+
+image::lesen-von-beziehungen.jpeg[]
+
+
+=== Domain Object Model (DOM)
+
+* Nicht zu verwechseln mit einem *Document Object Model* (in einem HTML-Dokument)
+
+* Domain -> Fachbereich (zB Autohandel, Immobilien, Medizin, ...)
+
+* vergleichbar mit einem ERD
+
+* es werden nur die Fachbereichsobjete und deren Beziehungen dargestellt und keine technischen Klassen (oder auch Interfaces)
+
+=== Use-Case-Diagram (Anwendungsfalldiagramm)
+
+* Dient beim Erstellen der Anforderungen als Schnittstelle zwischen Kunde und Programmierer
+
+* Es werden Anwendungsfälle dargestellt
+** Bsp PKW
+*** Transport von Personen
+*** Transport von Gütern
+*** ev. Statussymbol
+
+[plantuml,demo4,png]
+----
+@startuml
+left to right direction
+actor "Besitzer" as fc
+rectangle PKW {
+  usecase "transportiere Personen" as UC1
+  usecase "transportiere Güter" as UC2
+  usecase "cruise auf Landstraße" as UC3
+}
+fc -- UC1
+fc -- UC2
+fc --> UC3
+@enduml
+----
+
+=== Google Java Style Guide
+
+https://google.github.io/styleguide/javaguide.html[Google Java Style Guide^]
+
+image::https://res.cloudinary.com/practicaldev/image/fetch/s--qjkpuQX6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://imgs.xkcd.com/comics/code_quality.png[]
+
+== 2022-11-xx
+
+image::projekt-leitfaden.png[]
 
 
 
