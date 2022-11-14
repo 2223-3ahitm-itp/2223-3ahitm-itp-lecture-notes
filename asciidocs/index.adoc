@@ -377,7 +377,19 @@ https://google.github.io/styleguide/javaguide.html[Google Java Style Guide^]
 
 image::https://imgs.xkcd.com/comics/code_quality.png[]
 
-== 2022-11-xx
+== 2022-11-14
+
+=== Projektauftrag
+
+bis Montag 21.11.2022
+
+=== Repo-Strukturierung
+
+* README.adoc
+* asciidoc-Verzeichnis
+* backend
+
+=== Projektablauf
 
 image::projekt-leitfaden.png[]
 
