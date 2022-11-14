@@ -367,7 +367,7 @@ rectangle PKW {
 }
 fc -- UC1
 fc -- UC2
-fc --> UC3
+fc -- UC3
 @enduml
 ----
 
