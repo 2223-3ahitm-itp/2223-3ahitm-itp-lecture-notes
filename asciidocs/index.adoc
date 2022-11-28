@@ -452,6 +452,27 @@ siehe https://www.deckweiss.at/post/wireframes-mockups-und-prototypen-was-wann-u
 
 == 2022-11-25
 
+=== Teststoff besprochen
+
+== 2022-11-28
+
+=== Pflichtenheft
+
+=== Git - Collaborator vs. Pull Request
+
+=== V-Modell
+
+image::v-modell.png[]
+
+
+=== Anforderungsanalyse
+
+
+
+
+
+
+
 
 
 
