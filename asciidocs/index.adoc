@@ -465,6 +465,45 @@ siehe https://www.deckweiss.at/post/wireframes-mockups-und-prototypen-was-wann-u
 image::v-modell.png[]
 
 
+== 2022-12-05
+Mitschrift: Ruep Michael
+
+Was
+
+* Pflichtenheft
+
+** ein Pflichtenheft zeigt nicht wie man was macht
+
+Wie
+
+* Problemvereinfachung durch Problemzerkleinerung:
+** Man nimmt die Probleme unterteilt sie immer soweit kleiner in kleiner Probleme bis sie schaffbar sind
+* Grobentwurf
+
+** Schnittstellen zwischen Komponenten definieren
+** Wichtig für die Zusammenarbeit (collaboration der Programmierer)
+*** Damit die verschiedenen Teile miteinander funktionieren.
+*** Mocken (=vortäuschen)
+**** beispielsweiße eine Datenbank vortäuschen wobei diese nur 3 einträge enthält.
+
+** Bsp:
+
+image::grobentwurf.png[]
+//grafik von Puchner Manuel
+
+* Feinentwurf
+** bis zum Klassendiagramm
+
+** Bsp:
+
+image::feinentwurf.png[]
+//grafik von Puchner Manuel
+
+* Implementierung
+** Durchführung (programmieren)
+** Das Ergebnis der Implementierung ist dann der Code
+
+
 === Anforderungsanalyse
 
 
