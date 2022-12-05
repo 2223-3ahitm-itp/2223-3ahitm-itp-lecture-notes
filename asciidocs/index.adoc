@@ -477,14 +477,14 @@ Was
 Wie
 
 * Problemvereinfachung durch Problemzerkleinerung:
-** Man nimmt die Probleme unterteilt sie immer soweit kleiner in kleiner Probleme bis sie schaffbar sind
-* Grobentwurf
+** Man nimmt die Probleme, unterteilt sie immer weiter in kleinere Probleme bis diese schaffbar sind.
 
+* Grobentwurf
 ** Schnittstellen zwischen Komponenten definieren
 ** Wichtig für die Zusammenarbeit (collaboration der Programmierer)
 *** Damit die verschiedenen Teile miteinander funktionieren.
 *** Mocken (=vortäuschen)
-**** beispielsweiße eine Datenbank vortäuschen wobei diese nur 3 einträge enthält.
+**** beispielsweise eine Datenbank vortäuschen wobei diese nur 3 Einträge enthält.
 
 ** Bsp:
 
