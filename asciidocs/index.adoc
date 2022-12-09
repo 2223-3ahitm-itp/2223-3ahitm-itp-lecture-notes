@@ -506,11 +506,121 @@ image::feinentwurf.png[]
 
 == 2022-12-09
 
+
 === Anforderungsanalyse
+Erhebung der Anforderungen für den Kunden
+
+Mitschrift: Ruep Michael
+
+* *Aufgabe:* Kapitel Anforderungsanalyse lesen (S.235 ff)
 
 
+==== Interview
+Wird am häufigsten als Ist-Aufnahmetechnik eingesetzt
+
+* Standardisiert (fixe fragen)
+* Halbstandardisiert (teilweise fix)
+* Nicht-Standardisiert (benötigt gute Interviewer)
 
 
+Offene Frage:
+Bsp: Wie geht es Ihnen?
+
+Geschlossene Frage:
+antwort: ja nein
+Bsp: Hast du einen Führerschein?
+
+Indirekte Frage:
+Hast du den Autoführerschein (um das ungefähre alter eingrenzen zu können).
+
+Direkte Frage:
+Direkt das fragen, was man erfahren will.
+
+* Interviewvorbereitung (interview preparation)
+* Interviewdurchführung (interview session)
+* Interviewauswertung (interview follow up)
+Bsp: Das Erfahrene niederschreiben
+
+*Vorteile:*
+
+- Möglichkeit zur vertiefung der Befragung durch Zusatzfragen und Verständnisfragen
+- Möglichkeit zur steigerung der Motivation des Befragten
+
+*Nachteile:*
+
+- Zeitaufwand
+- Anforderung and die Fähigkeiten der Interviewer
+- Störung des Interviewten bei der Aufgaben erfüllung
+
+
+==== Fragebogen
+* quantitativ: Zahlen
+
+* qualitativ: Meinungsbilder (wie geht es jemanden damit)
+
+Es gibt Individual und Gruppenfragebögen
+
+*Vorteile:*
+
+- schriftliche Ergebnisse
+- Anwendung der Wahrscheinlichkeitsrechnung
+- geringe Kosten
+
+*Nachteile:*
+
+- geringe Antwortquote
+- Missverständnisse möglich
+- aufwendige Auswertung bei freien Fragen
+
+
+==== Beobachtung
+Direkte Fassungsmethode sinnliche Wahrnehmungen des Planers für zusätzliche Informationen.
+
+Man fragt nicht nur was gewollt ist, was das Problem ist was gemeint ist
+man sagt auch das und das bekommt man und das und das eben nicht, somit fallen keine Missverständnisse auf.
+
+*Formen:*
+
+- offene oder verdeckte Beobachtung
+- strukturierte oder unstrukturierte Beobachtung
+- aktiv teilnehmende oder passive Beobachtung
+- Dauerbeobachtung oder unterbrochene Beobachtung
+
+*Multimomentaufnahme:*
+Stichprobenartig (nicht nur genau an einem zeitpunkt immer wieder um einen schnitt zu bekommen)
+
+
+==== Selbstaufschreibung
+Strukturierte Aufzeichnung relevanter Ereignisse und Handlungen
+
+*Vorgehensrahmen:*
+
+- Aufnahmenfestlegung
+- Aufnahmenvorbereitung
+- Mitarbeiterinformation
+- Durchführung
+- Auswertung
+
+*Vorteile:*
+
+- mögliche Totalaufnahme
+- Entlastung des Systemplaners
+
+*Nachteile:*
+
+- bewusste Fälschung
+
+==== Dokumentenauswertung
+Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevanten Dokumente (heute meist elektronisch). Damit man weiß welche daten man hat.
+
+- Dokumentation des Systems
+- Studien über das System
+- Belege und Formulare
+
+==== Weitere Methoden
+- Snowcards (Anforderungskarten)
+- Problem-Frames
+- ...
 
 
 
