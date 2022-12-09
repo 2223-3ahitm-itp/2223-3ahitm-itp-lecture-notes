@@ -504,7 +504,13 @@ image::feinentwurf.png[]
 ** Das Ergebnis der Implementierung ist dann der Code
 
 
+== 2022-12-09
+
 === Anforderungsanalyse
+
+
+
+
 
 
 
