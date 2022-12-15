@@ -620,7 +620,8 @@ Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevante
 ==== Weitere Methoden
 - Snowcards (Anforderungskarten)
 - Problem-Frames
-- ...
+- QFD - Quality Function Deployment
+- Anforderungs Workshop
 
 
 
