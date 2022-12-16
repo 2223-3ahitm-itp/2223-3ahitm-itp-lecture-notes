@@ -509,6 +509,62 @@ image::feinentwurf.png[]
 === Anforderungsanalyse
 
 
+== 2022-12-16
+Mitschrift: Adelwöhrer Leonie
+
+Git-Flow
+
+* Branches
+** Main Branch
+*** Lauffähige Version
+*** releases V.1.0
+*** commits
+
+** Development Branch
+*** Development Umgebung
+*** cherry-picking
+
+** Feature Branch
+*** Neue Funktionen
+*** Bugfixes
+*** Hotfix .... muss schnell passieren
+
+
+V-Modell
+
+* Validierung = Lösen wir das Problem?
+* Grobentwurf = Datenbank, Backend, Frontend
+* Feinentwurf = Bis zum Klassendiagramm
+* Unterschied Entwurf und Design = Gibt keinen!
+
+* V-Modell (Vorgehensmodell... Wie erstelle ich es?) = alles in einem,
+** Wasserfallmodel (Grundlegende Prozessmodelle)
+*** Analyse, Anforderungsanalyse, Design, Realisierung, Test, Einsatz und Wartung
+** iterative Prozesse (iterative Prozessmodelle)
+** XP (Agile Prozessmodelle)
+
+
+
+Scrum (Haufen => agil heißt flink, beweglich)
+
+* kleine Einheiten
+* umfangreiche Dokumentation (im Code bspw. AsciiDoc)
+* Verträge
+* Fokus, Leistung
+
+* Verlauf:
+** Product Backlog (User-story, Sachlich)
+** Sprint Backlog (Zeitlich)
+** Sprint (Bis wann?)
+** lauffähige inkrementell verbesserte Software
+
+* Warum Domainmodell und kein Klassendiagramm? Da wir keine technischen Daten Benötigen!
+
+Git
+
+* Versionierungssoftware
+* Architektur... Local Repo, Remote Repo
+
 
 
 
