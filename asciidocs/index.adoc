@@ -574,10 +574,12 @@ Es gibt Individual und Gruppenfragebögen
 
 
 ==== Beobachtung
-Direkte Fassungsmethode sinnliche Wahrnehmungen des Planers für zusätzliche Informationen.
+Direkte Erfassungsmethode, sinnliche Wahrnehmungen des Planers für zusätzliche Informationen.
 
-Man fragt nicht nur was gewollt ist, was das Problem ist was gemeint ist
-man sagt auch das und das bekommt man und das und das eben nicht, somit fallen keine Missverständnisse auf.
+* Man fragt nicht nur
+** was gewollt ist, was das Problem ist was gemeint ist
+(*was mann bekommt*) man sagt auch
+** das und das eben nicht (*was man nicht bekommt*), somit fallen Missverständnisse auf.
 
 *Formen:*
 
@@ -587,7 +589,7 @@ man sagt auch das und das bekommt man und das und das eben nicht, somit fallen k
 - Dauerbeobachtung oder unterbrochene Beobachtung
 
 *Multimomentaufnahme:*
-Stichprobenartig (nicht nur genau an einem zeitpunkt immer wieder um einen schnitt zu bekommen)
+Stichprobenartig (nicht nur genau an einem Zeitpunkt, immer wieder, um eine Übersicht über die vom Mitarbeiter durchgeführten Tätigkeiten zu bekommen)
 
 
 ==== Selbstaufschreibung
