@@ -355,7 +355,7 @@ image::lesen-von-beziehungen.jpeg[]
 *** Transport von Gütern
 *** ev. Statussymbol
 
-[plantuml,demo4,png]
+[plantuml,demo5,png]
 ----
 @startuml
 left to right direction
