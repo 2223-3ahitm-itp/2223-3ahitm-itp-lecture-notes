@@ -228,7 +228,7 @@ include::plantuml/projektantrag.puml[]
 
 ==== Klassendiagramm
 
-[plantuml,demo,png]
+[plantuml,cld_class,png]
 ----
 @startuml
 class Person {
@@ -273,7 +273,7 @@ image::complete-vs-incomplete.png[]
 image::disjoint-vs-overlapping.png[]
 
 
-[plantuml,demo2,png]
+[plantuml,cld_1_n,png]
 ----
 @startuml
 'left to right direction
@@ -289,7 +289,7 @@ Person "1" <-- "*" Haustier: < gehört zu
 ----
 
 .Variante 1
-[plantuml,demo3,png]
+[plantuml,cld_n_m_var1,png]
 ----
 @startuml
 left to right direction
@@ -309,7 +309,7 @@ Person "*" -- "*" Firma
 ----
 
 .Variante 2
-[plantuml,demo4,png]
+[plantuml,cld_n_m_var2,png]
 ----
 @startuml
 left to right direction
@@ -481,6 +481,8 @@ Wie
 
 * Grobentwurf
 ** Schnittstellen zwischen Komponenten definieren
+*** Komponentendiagramm (UML)
+*** Verteilungsdiagramm (UML)
 ** Wichtig für die Zusammenarbeit (collaboration der Programmierer)
 *** Damit die verschiedenen Teile miteinander funktionieren.
 *** Mocken (=vortäuschen)
@@ -492,7 +494,10 @@ image::grobentwurf.png[]
 //grafik von Puchner Manuel
 
 * Feinentwurf
-** bis zum Klassendiagramm
+** Klassendiagramm (UML)
+** Zustandsdiagramm (UML)
+** Objektdiagramm (UML)
+** ..
 
 ** Bsp:
 
