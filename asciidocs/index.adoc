@@ -228,7 +228,7 @@ include::plantuml/projektantrag.puml[]
 
 ==== Klassendiagramm
 
-[plantuml,demo,png]
+[plantuml,cld_class,png]
 ----
 @startuml
 class Person {
@@ -273,7 +273,7 @@ image::complete-vs-incomplete.png[]
 image::disjoint-vs-overlapping.png[]
 
 
-[plantuml,demo2,png]
+[plantuml,cld_1_n,png]
 ----
 @startuml
 'left to right direction
@@ -289,7 +289,7 @@ Person "1" <-- "*" Haustier: < gehört zu
 ----
 
 .Variante 1
-[plantuml,demo3,png]
+[plantuml,cld_n_m_var1,png]
 ----
 @startuml
 left to right direction
@@ -309,7 +309,7 @@ Person "*" -- "*" Firma
 ----
 
 .Variante 2
-[plantuml,demo4,png]
+[plantuml,cld_n_m_var2,png]
 ----
 @startuml
 left to right direction
@@ -355,7 +355,7 @@ image::lesen-von-beziehungen.jpeg[]
 *** Transport von Gütern
 *** ev. Statussymbol
 
-[plantuml,demo4,png]
+[plantuml,demo5,png]
 ----
 @startuml
 left to right direction
@@ -481,6 +481,8 @@ Wie
 
 * Grobentwurf
 ** Schnittstellen zwischen Komponenten definieren
+*** Komponentendiagramm (UML)
+*** Verteilungsdiagramm (UML)
 ** Wichtig für die Zusammenarbeit (collaboration der Programmierer)
 *** Damit die verschiedenen Teile miteinander funktionieren.
 *** Mocken (=vortäuschen)
@@ -492,7 +494,10 @@ image::grobentwurf.png[]
 //grafik von Puchner Manuel
 
 * Feinentwurf
-** bis zum Klassendiagramm
+** Klassendiagramm (UML)
+** Zustandsdiagramm (UML)
+** Objektdiagramm (UML)
+** ..
 
 ** Bsp:
 
@@ -506,8 +511,111 @@ image::feinentwurf.png[]
 
 == 2022-12-09
 
-=== Anforderungsanalyse
 
+=== Anforderungsanalyse
+Erhebung der Anforderungen für den Kunden
+
+Mitschrift: Ruep Michael
+
+* *Aufgabe:* Kapitel Anforderungsanalyse lesen (S.235 ff)
+
+
+==== Interview
+Wird am häufigsten als Ist-Aufnahmetechnik eingesetzt
+
+* Standardisiert (fixe fragen)
+* Halbstandardisiert (teilweise fix)
+* Nicht-Standardisiert (benötigt gute Interviewer)
+
+
+Offene Frage:
+Bsp: Wie geht es Ihnen?
+
+Geschlossene Frage:
+antwort: ja nein
+Bsp: Hast du einen Führerschein?
+
+Indirekte Frage:
+Hast du den Autoführerschein (um das ungefähre alter eingrenzen zu können).
+
+Direkte Frage:
+Direkt das fragen, was man erfahren will.
+
+* Interviewvorbereitung (interview preparation)
+* Interviewdurchführung (interview session)
+* Interviewauswertung (interview follow up)
+Bsp: Das Erfahrene niederschreiben
+
+*Vorteile:*
+
+- Möglichkeit zur vertiefung der Befragung durch Zusatzfragen und Verständnisfragen
+- Möglichkeit zur steigerung der Motivation des Befragten
+
+*Nachteile:*
+
+- Zeitaufwand
+- Anforderung and die Fähigkeiten der Interviewer
+- Störung des Interviewten bei der Aufgaben erfüllung
+
+
+==== Fragebogen
+* quantitativ: Zahlen
+
+* qualitativ: Meinungsbilder (wie geht es jemanden damit)
+
+Es gibt Individual und Gruppenfragebögen
+
+*Vorteile:*
+
+- schriftliche Ergebnisse
+- Anwendung der Wahrscheinlichkeitsrechnung
+- geringe Kosten
+
+*Nachteile:*
+
+- geringe Antwortquote
+- Missverständnisse möglich
+- aufwendige Auswertung bei freien Fragen
+
+
+==== Beobachtung
+Direkte Erfassungsmethode, sinnliche Wahrnehmungen des Planers für zusätzliche Informationen.
+
+* Man fragt nicht nur
+** was gewollt ist, was das Problem ist was gemeint ist
+(*was mann bekommt*) man sagt auch
+** das und das eben nicht (*was man nicht bekommt*), somit fallen Missverständnisse auf.
+
+*Formen:*
+
+- offene oder verdeckte Beobachtung
+- strukturierte oder unstrukturierte Beobachtung
+- aktiv teilnehmende oder passive Beobachtung
+- Dauerbeobachtung oder unterbrochene Beobachtung
+
+*Multimomentaufnahme:*
+Stichprobenartig (nicht nur genau an einem Zeitpunkt, immer wieder, um eine Übersicht über die vom Mitarbeiter durchgeführten Tätigkeiten zu bekommen)
+
+
+==== Selbstaufschreibung
+Strukturierte Aufzeichnung relevanter Ereignisse und Handlungen
+
+*Vorgehensrahmen:*
+
+- Aufnahmenfestlegung
+- Aufnahmenvorbereitung
+- Mitarbeiterinformation
+- Durchführung
+- Auswertung
+
+*Vorteile:*
+
+- mögliche Totalaufnahme
+- Entlastung des Systemplaners
+
+*Nachteile:*
+
+- bewusste Fälschung
 
 == 2022-12-16
 Mitschrift: Adelwöhrer Leonie
@@ -566,7 +674,18 @@ Git
 * Architektur... Local Repo, Remote Repo
 
 
+==== Dokumentenauswertung
+Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevanten Dokumente (heute meist elektronisch). Damit man weiß welche daten man hat.
 
+- Dokumentation des Systems
+- Studien über das System
+- Belege und Formulare
+
+==== Weitere Methoden
+- Snowcards (Anforderungskarten)
+- Problem-Frames
+- QFD - Quality Function Deployment
+- Anforderungs Workshop
 
 
 
