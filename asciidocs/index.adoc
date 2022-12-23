@@ -631,10 +631,82 @@ Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevante
 - Anforderungs Workshop
 
 
+== 2022-12-19
+Mitschrift: Nico Wakolbinger
+
+=== Scrum
+image::scrum.png[]
 
 
+Scrum Aktivitäten:
+
+- Anforderungsanalyse
+
+Product Backlog
+
+* Was bekomme ich? (sachliche Komponente)
+
+Sprint Backlog
+
+* Wie bekomme ich etwas?
+
+Sprintdauer: 30 Tage
+
+Inkrementieren => um 1 erhöhen, um ein Stück erhöhen, ...
+
+Nach jedem Sprint ist das Produkt lauffähig
+
+*Business Value*...  der Grund weshalb es die Firma gibt/alles womit die Firma Geld verdient
 
 
+==== Rollen im Scrum
+
+- Product Owner
+
+- Scrum Master
+
+* Kümmerer (sorgt für Softwarelizenzen, passende Hardware, ...)
+
+- Team members
+
+* Programmierer
+
+* maximal 8 Personen pro Tem
+
+- Users
+
+* Softwarenutzer
+
+- Stakeholder
+
+* Betroffende des Projekts allerdings nicht involviert
+
+
+=== User Story
+
+Unterteilung in Tasks
+
+=> Sprint Backlog
+
+
+=== Burndown Chart
+
+Ermöglicht den Fortschritt eines Sprints grafisch darzustellen.
+
+== 2022-12-23
+Mitschrift: Nico Wakolbinger
+
+Derivat: Abkömmling
+
+Bekanntestes Linux Derivat => Ubuntu
+
+Betriebssystem, Kernel
+
+Packetmanager: z.B. apt, ...
+
+=== Docker
+
+siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
 
 
 
