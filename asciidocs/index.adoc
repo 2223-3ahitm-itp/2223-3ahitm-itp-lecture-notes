@@ -635,8 +635,8 @@ Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevante
 Mitschrift: Nico Wakolbinger
 
 === Scrum
-image::scrum.png[]
-
+image::the-scrum-framework-large.png[]
+.source: https://www.thescrummaster.co.uk/scrum/scrum-framework-image-from-scrum-org/[Scrum Framework Image From Scrum.org^]
 
 Scrum Aktivitäten:
 
@@ -693,7 +693,7 @@ Unterteilung in Tasks
 
 Ermöglicht den Fortschritt eines Sprints grafisch darzustellen.
 
-== 2022-12-23
+== 2022-12-23 Docker
 Mitschrift: Nico Wakolbinger
 
 Derivat: Abkömmling
@@ -704,7 +704,6 @@ Betriebssystem, Kernel
 
 Packetmanager: z.B. apt, ...
 
-=== Docker
 
 siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
 
