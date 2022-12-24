@@ -635,51 +635,73 @@ Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevante
 Mitschrift: Nico Wakolbinger
 
 === Scrum
-image::the-scrum-framework-large.png[]
+
 .source: https://www.thescrummaster.co.uk/scrum/scrum-framework-image-from-scrum-org/[Scrum Framework Image From Scrum.org^]
+image::the-scrum-framework-large.png[]
 
-Scrum Aktivitäten:
+* Scrum Aktivitäten:
 
-- Anforderungsanalyse
+** Anforderungsanalyse
 
-Product Backlog
+** Sprint Planning
 
-* Was bekomme ich? (sachliche Komponente)
+.source: https://scrumguide.de/user-story/
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YYkuwOSXOck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
++++
 
-Sprint Backlog
 
-* Wie bekomme ich etwas?
 
-Sprintdauer: 30 Tage
+* Product Backlog
 
-Inkrementieren => um 1 erhöhen, um ein Stück erhöhen, ...
+** User Stories
+** *Was* bekomme ich? (sachliche Komponente)
+** Eine User Story oder Anwendererzählung ist eine kurze Beschreibung (Story) dessen, was ein Benutzer (User) will. Eine User Story besteht aus ein paar Sätzen, in denen beschrieben wird, was der Benutzer des Produkts machen will bzw. muss. Sie ist im Regelfall wenig detailliert und sollte auf ein post-it passen. (source: https://scrumguide.de/user-story/)
 
-Nach jedem Sprint ist das Produkt lauffähig
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2xSKHVyj7CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
++++
 
-*Business Value*...  der Grund weshalb es die Firma gibt/alles womit die Firma Geld verdient
+
+* Sprint Backlog
+** User Stories werden in Task zerlegt (verfeinert)
+** *Wie* bekomme ich etwas?
+
++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/J0Hb35HC4aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
++++
+
+* Sprint: *wann* bekomme ich etwas?
+
+* Sprintdauer: in real-world Projekten ca. 30 Tage; in Schule ca 14 Tage
+
+Inkrementieren -> um 1 erhöhen, um ein Stück erhöhen, ...
+
+Nach jedem Sprint ist das Produkt lauffähig -> dieser Stand des Produkts wird "*increment*" genannt
 
 
 ==== Rollen im Scrum
 
-- Product Owner
+* Scrum Team)
 
-- Scrum Master
+** Product Owner
+*** vertritt die Interessen des Auftraggebers
 
-* Kümmerer (sorgt für Softwarelizenzen, passende Hardware, ...)
+** Scrum Master
+*** Kümmerer (sorgt für Softwarelizenzen, passende Hardware, ...)
 
-- Team members
+** Developers
+*** Programmierer
+*** maximal 8 Personen pro Team
 
-* Programmierer
+* Users
+** Softwarenutzer
 
-* maximal 8 Personen pro Tem
+* Stakeholder
+** Betroffene des Projekts, sind involviert, arbeiten aber nicht mit der erstellten Software
 
-- Users
-
-* Softwarenutzer
-
-- Stakeholder
-
-* Betroffende des Projekts allerdings nicht involviert
+.source: https://www.thescrummaster.co.uk/wp-content/uploads/2021/03/TheSimpleGuideToScrum-1Pager.pdf[The Simple Guide To Scrum - 1 Pager^]
+image::scrum-team.png[]
 
 
 === User Story
