@@ -708,7 +708,7 @@ image::scrum-team.png[]
 
 Unterteilung in Tasks
 
-=> Sprint Backlog
+-> Sprint Backlog
 
 
 === Burndown Chart
