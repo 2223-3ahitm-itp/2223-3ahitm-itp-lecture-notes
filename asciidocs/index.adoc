@@ -586,15 +586,14 @@ Direkte Erfassungsmethode, sinnliche Wahrnehmungen des Planers für zusätzliche
 (*was mann bekommt*) man sagt auch
 ** das und das eben nicht (*was man nicht bekommt*), somit fallen Missverständnisse auf.
 
-*Formen:*
+* Formen:*
 
 - offene oder verdeckte Beobachtung
 - strukturierte oder unstrukturierte Beobachtung
 - aktiv teilnehmende oder passive Beobachtung
 - Dauerbeobachtung oder unterbrochene Beobachtung
 
-*Multimomentaufnahme:*
-Stichprobenartig (nicht nur genau an einem Zeitpunkt, immer wieder, um eine Übersicht über die vom Mitarbeiter durchgeführten Tätigkeiten zu bekommen)
+* Multimomentaufnahme: Stichprobenartig (nicht nur genau an einem Zeitpunkt, immer wieder, um eine Übersicht über die vom Mitarbeiter durchgeführten Tätigkeiten zu bekommen)
 
 
 ==== Selbstaufschreibung
@@ -620,7 +619,7 @@ Strukturierte Aufzeichnung relevanter Ereignisse und Handlungen
 == 2022-12-16
 Mitschrift: Adelwöhrer Leonie
 
-Git-Flow
+=== Git-Flow
 
 * Branches
 ** Main Branch
@@ -637,8 +636,10 @@ Git-Flow
 *** Bugfixes
 *** Hotfix .... muss schnell passieren
 
+image::git-overview2.png[]
 
-V-Modell
+
+=== V-Modell
 
 * Validierung = Lösen wir das Problem?
 * Grobentwurf = Datenbank, Backend, Frontend
@@ -674,14 +675,14 @@ Git
 * Architektur... Local Repo, Remote Repo
 
 
-==== Dokumentenauswertung
+=== Dokumentenauswertung
 Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevanten Dokumente (heute meist elektronisch). Damit man weiß welche daten man hat.
 
 - Dokumentation des Systems
 - Studien über das System
 - Belege und Formulare
 
-==== Weitere Methoden
+=== Weitere Methoden
 - Snowcards (Anforderungskarten)
 - Problem-Frames
 - QFD - Quality Function Deployment
@@ -785,6 +786,31 @@ Packetmanager: z.B. apt, ...
 
 
 siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
+
+
+== 2023-01-09
+
+* https://www.youtube.com/watch?v=jXBo-RasY3g[YouTrack Project Management: Essentials for Getting Started^]
+
+* https://github.com/1920-3ahitm-itp/02-project-repositories-studentfeedback
+
+== 2023-01-XX
+
+* Fehlende UML Diagramme erarbeiten
+** Zustandsdiagramm
+** Aktivitätsdiagramm
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
