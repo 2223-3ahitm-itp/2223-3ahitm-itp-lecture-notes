@@ -807,11 +807,11 @@ siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
 
 * Bis nach den Semesterferien
 ** Cld fertig
-** Repositories programmiert
 ** Entities programmiert
+** Repositories programmiert
 ** Use-Cases mit assertj-db testen
 
-
+IMPORTANT: Für die einzelnen Aktivitäten im youtrack User Stories und tasks anlegen und bei den Commits deren Id in der Commit-Message eintragen
 
 
 
