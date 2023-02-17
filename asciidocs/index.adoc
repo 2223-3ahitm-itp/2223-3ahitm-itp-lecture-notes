@@ -802,7 +802,14 @@ siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
 
 
 
+== 2023-02-17
 
+
+* Bis nach den Semesterferien
+** Cld fertig
+** Repositories programmiert
+** Entities programmiert
+** Use-Cases mit assertj-db testen
 
 
 
