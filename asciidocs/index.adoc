@@ -806,14 +806,18 @@ siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
 
 
 * Bis nach den Semesterferien
-** Cld fertig
-** Entities programmiert
-** Repositories programmiert
+** Cld fertigstellen
+** in Java programmieren
+*** Entities
+*** Repositories
 ** Use-Cases mit assertj-db testen
+** Konfigurieren einer gh-page im Repo laut Angabe
 
 IMPORTANT: Für die einzelnen Aktivitäten im youtrack User Stories und tasks anlegen und bei den Commits deren Id in der Commit-Message eintragen
 
-
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XUIse_dzdGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+++++
 
 
 
