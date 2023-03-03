@@ -822,6 +822,36 @@ IMPORTANT: Für die einzelnen Aktivitäten im youtrack User Stories und tasks an
 
 
 
+== 2023-02-27
+
+=== Docker
+
+* Docker ist leichtgewichtige Virtualiserung.
+
+==== Warum Docker?
+
+
+image::works-on-my-machine.png[]
+
+* Man braucht eine Laufzeitumgebung, die genau definiert ist
+** Java hatte früher den Slogan "Write once, runs anywhere" (WORA)
+** Heutzutage eher "Write once, run predictable" (WORP)
+
+
+* Unterschied Developer - Operator
+** Developer: programmiert Applikationen
+** Operator: ist im Rechenzentrum; kümmert sich um das Hosting der Anwendungen, Sicherungen, etc.
+** Es gab immer Konflikte zwischen Devs und Operators
+** -> jetzt gibt es DevOps
+
+++++
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0yWAtQ6wYNM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+++++
+
+
+
+
+
 
 
 
