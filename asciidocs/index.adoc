@@ -819,6 +819,30 @@ IMPORTANT: Für die einzelnen Aktivitäten im youtrack User Stories und tasks an
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XUIse_dzdGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ++++
 
+== 2023-02-27
+https://htl-leonding-college.github.io/docker-lecture-notes/[Docker-Notes]
+
+Mitschrift: Ruep Michael
+
+- Host -> Gastgebe/Wirt
+- DevOps -> Developer und Operator
+- Distibutionen -> sind um einen Kernel (Linux) aufgebaut
+
+Linux ist modular aufgebaut
+
+Windows ist ein Monolit => Monolitischer Kernel (Stein aus einem Stück --> Windows ist rießig im gegensatz zu Linux)
+
+Deshalb verwendet man unter Windows WSL (Windows Subsystem for Linux)
+
+**Was ist/kann Docker?**
+Applikationen und ihre Abhängigkeiten in einen Container packen und somit kann man sicherstellen, dass sich die Laufzeitumgebung unverändert bleibt.
+
+**Grundprinzip **
+
+- Dockerfile: Kochrezept zum Erstellen des Images
+- Image: Immutable Image
+- Container: gestartetes Image (mutable)
+
 
 
 
