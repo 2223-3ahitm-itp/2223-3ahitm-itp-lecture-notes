@@ -849,11 +849,51 @@ image::works-on-my-machine.png[]
 ++++
 
 
+Fragen:
+
+* Unterschiede Developer - Operator - DevOps
+* Aufgaben des DevOps
+** Was kommt zum Programmieren noch dazu?
+* Warum gibt es DevOps?
+* Aufgaben des Operators
+* ...
+
+== 2023-03-10
 
 
+image::scrum-und-v-modell.png[]
 
 
+=== Testen
 
+* jUnit
 
+image::unit-tests.png[]
 
+** Test-Matcher
+
+*** ein aktueller Wert wird mit einem vorgegebenen Wert verglichen.
+
+*** in jUnit sind solche Matcher bereits eingebaut
+
+**** assertEquals
+**** assertTrue
+**** assertXXX
+
+*** Es gibt aber auch alternative Matcher
+**** https://hamcrest.org/JavaHamcrest/tutorial[Hamcrest^]
+**** https://assertj.github.io/doc/[assertJ^]
+**** ...
+
+*** Vorteile von alternativen Matcher
+**** Übersichtlichkeit des Codes
+**** Schreibweise (fluent)
+**** Anzahl der Matcher
+***** zB speziell für Collection-Vergleiche
+***** zB für Datenbanken
+***** https://jenkov.com/tutorials/jdbc/index.html
+
+=== Activity Diagrams
+
+* https://plantuml.com/activity-diagram-beta#sdl[ACD in plantuml^ (SDL)]
 
