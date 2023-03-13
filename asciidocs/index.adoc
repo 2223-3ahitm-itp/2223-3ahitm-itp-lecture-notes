@@ -897,3 +897,27 @@ image::unit-tests.png[]
 
 * https://plantuml.com/activity-diagram-beta#sdl[ACD in plantuml^ (SDL)]
 
+=== Zustandsdiagramme
+
+
+== 2023-03-13
+
+=== Forstsetzung Docker
+
+==== Registry
+
+* zB hub.docker.com
+
+
+==== Bind Mounts vs Volumes
+
+
+==== Hausübung
+
+* Erstellen eines Container mit MariaDb
+** In einem bind mount sollen die Datenbank-Files gespeichert werden (`db`-Verzeichnis)
+** Das `docker run` - Kommando soll in einem shell-script `create-db-container.sh` gespeichert werden.
+** Nach Ausführen des Scripts soll der Container erstellt werden.
+** Erstellung eines Script `stop-db-container.sh` (der Container muss automatisch gelöscht werden)
+** Nach einem neuerlichen Start müssen die Daten wieder vorhanden sein
+** Erstellen Sie in IntelliJ eine Datenbank-Connection zu Ihrer Maria-Db
