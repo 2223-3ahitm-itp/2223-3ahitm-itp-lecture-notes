@@ -921,3 +921,104 @@ image::unit-tests.png[]
 ** Erstellung eines Script `stop-db-container.sh` (der Container muss automatisch gelöscht werden)
 ** Nach einem neuerlichen Start müssen die Daten wieder vorhanden sein
 ** Erstellen Sie in IntelliJ eine Datenbank-Connection zu Ihrer Maria-Db
+
+
+
+== 2023-03-24
+
+=== Docker
+
+* Docker ist eine leichtgewichtige Virtualisierung
+
+==== Komponenten
+
+* Container
+* Image
+* Netzwerk
+* ev. Volume oder Bind Mount
+
+==== Image
+
+* Image ist immtable und kann daher von mehreren Containern benutzt werden.
+
+* Woher bekommt man ein Image?
+
+** Pullen von der Docker Registry
+** build mit einem Dockerfile (auch hier wird meist ein grundlegendes Image von einer Registry geholt)
+
+* Welche Registries gibt es?
+
+** Große öffentlich wie zB
+*** hub.docker.com
+*** quay.io
+*** ghcr.io (Docker Registry von github)
+*** ...
+
+** Man kann eine eigene Registry hosten
+*** https://hub.docker.com/_/registry
+
+
+* Dockerfile
+
+** vglbar mit einem Kochrezept oder einem shell-script
+** Die Befehle werden sequentiell abgearbeitet
+
+----
+FROM debian:bullseye-slim
+
+LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
+
+ENV NGINX_VERSION   1.23.3
+ENV NJS_VERSION     0.7.9
+ENV PKG_RELEASE     1~bullseye
+
+RUN set -x \
+# create nginx user/group first, to be consistent throughout docker variants
+    && addgroup --system --gid 101 nginx \
+    && adduser --system --disabled-login --ingroup nginx --no-create-home --home /nonexistent --gecos "nginx user" --shell /bin/false --uid 101 nginx \
+    && apt-get update \
+    && apt-get install --no-install-recommends --no-install-suggests -y gnupg1 ca-certificates \
+    && \
+    NGINX_GPGKEY=573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62; \
+    found=''; \
+    for server in \
+        hkp://keyserver.ubuntu.com:80 \
+        pgp.mit.edu \
+    ; do \
+        echo "Fetching GPG key $NGINX_GPGKEY from $server"; \
+        apt-key adv --keyserver "$server" --keyserver-options timeout=10 --recv-keys "$NGINX_GPGKEY" && found=yes && break; \
+    done; \
+    test -z "$found" && echo >&2 "error: failed to fetch GPG key $NGINX_GPGKEY" && exit 1; \
+    apt-get remove --purge --auto-remove -y gnupg1 && rm -rf /var/lib/apt/lists/* \
+    && dpkgArch="$(dpkg --print-architecture)" \
+    && nginxPackages=" \
+        nginx=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-xslt=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-geoip=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-image-filter=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-njs=${NGINX_VERSION}+${NJS_VERSION}-${PKG_RELEASE} \
+    " \
+    && case "$dpkgArch" in \
+        amd64|arm64) \
+----
+
+** Die Statements (einzelnen Befehle) werden oft mit einem && verbunden, dh sie werden nacheinander ausgeführt
+
+** Dies ist wichtig, da Docker für jedes einzelne Kommando eine eigene Schicht erstellt.
+** Mit && können mehrere Befehle zu einer Schicht (Layer) zusammengefasst werden.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
