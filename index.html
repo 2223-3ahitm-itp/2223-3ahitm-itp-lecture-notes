@@ -567,6 +567,11 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_forstsetzung_docker">25.1. Forstsetzung Docker</a></li>
 </ul>
 </li>
+<li><a href="#_2023_03_24">26. 2023-03-24</a>
+<ul class="sectlevel2">
+<li><a href="#_docker_2">26.1. Docker</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -2468,10 +2473,169 @@ Für die einzelnen Aktivitäten im youtrack User Stories und tasks anlegen und b
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_2023_03_24"><a class="anchor" href="#_2023_03_24"></a>26. 2023-03-24</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_docker_2"><a class="anchor" href="#_docker_2"></a>26.1. Docker</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Docker ist eine leichtgewichtige Virtualisierung</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_komponenten"><a class="anchor" href="#_komponenten"></a>26.1.1. Komponenten</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Container</p>
+</li>
+<li>
+<p>Image</p>
+</li>
+<li>
+<p>Netzwerk</p>
+</li>
+<li>
+<p>ev. Volume oder Bind Mount</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_image"><a class="anchor" href="#_image"></a>26.1.2. Image</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Image ist immtable und kann daher von mehreren Containern benutzt werden.</p>
+</li>
+<li>
+<p>Woher bekommt man ein Image?</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Pullen von der Docker Registry</p>
+</li>
+<li>
+<p>build mit einem Dockerfile (auch hier wird meist ein grundlegendes Image von einer Registry geholt)</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Welche Registries gibt es?</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Große öffentlich wie zB</p>
+<div class="ulist">
+<ul>
+<li>
+<p>hub.docker.com</p>
+</li>
+<li>
+<p>quay.io</p>
+</li>
+<li>
+<p>ghcr.io (Docker Registry von github)</p>
+</li>
+<li>
+<p>&#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Man kann eine eigene Registry hosten</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://hub.docker.com/_/registry" class="bare">https://hub.docker.com/_/registry</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Dockerfile</p>
+<div class="ulist">
+<ul>
+<li>
+<p>vglbar mit einem Kochrezept oder einem shell-script</p>
+</li>
+<li>
+<p>Die Befehle werden sequentiell abgearbeitet</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre>FROM debian:bullseye-slim
+
+LABEL maintainer="NGINX Docker Maintainers &lt;docker-maint@nginx.com&gt;"
+
+ENV NGINX_VERSION   1.23.3
+ENV NJS_VERSION     0.7.9
+ENV PKG_RELEASE     1~bullseye
+
+RUN set -x \
+# create nginx user/group first, to be consistent throughout docker variants
+    &amp;&amp; addgroup --system --gid 101 nginx \
+    &amp;&amp; adduser --system --disabled-login --ingroup nginx --no-create-home --home /nonexistent --gecos "nginx user" --shell /bin/false --uid 101 nginx \
+    &amp;&amp; apt-get update \
+    &amp;&amp; apt-get install --no-install-recommends --no-install-suggests -y gnupg1 ca-certificates \
+    &amp;&amp; \
+    NGINX_GPGKEY=573BFD6B3D8FBC641079A6ABABF5BD827BD9BF62; \
+    found=''; \
+    for server in \
+        hkp://keyserver.ubuntu.com:80 \
+        pgp.mit.edu \
+    ; do \
+        echo "Fetching GPG key $NGINX_GPGKEY from $server"; \
+        apt-key adv --keyserver "$server" --keyserver-options timeout=10 --recv-keys "$NGINX_GPGKEY" &amp;&amp; found=yes &amp;&amp; break; \
+    done; \
+    test -z "$found" &amp;&amp; echo &gt;&amp;2 "error: failed to fetch GPG key $NGINX_GPGKEY" &amp;&amp; exit 1; \
+    apt-get remove --purge --auto-remove -y gnupg1 &amp;&amp; rm -rf /var/lib/apt/lists/* \
+    &amp;&amp; dpkgArch="$(dpkg --print-architecture)" \
+    &amp;&amp; nginxPackages=" \
+        nginx=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-xslt=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-geoip=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-image-filter=${NGINX_VERSION}-${PKG_RELEASE} \
+        nginx-module-njs=${NGINX_VERSION}+${NJS_VERSION}-${PKG_RELEASE} \
+    " \
+    &amp;&amp; case "$dpkgArch" in \
+        amd64|arm64) \</pre>
+</div>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Die Statements (einzelnen Befehle) werden oft mit einem &amp;&amp; verbunden, dh sie werden nacheinander ausgeführt</p>
+</li>
+<li>
+<p>Dies ist wichtig, da Docker für jedes einzelne Kommando eine eigene Schicht erstellt.</p>
+</li>
+<li>
+<p>Mit &amp;&amp; können mehrere Befehle zu einer Schicht (Layer) zusammengefasst werden.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-03-13 10:50:41 UTC
+Last updated 2023-03-24 08:47:31 UTC
 </div>
 </div>
 </body>
