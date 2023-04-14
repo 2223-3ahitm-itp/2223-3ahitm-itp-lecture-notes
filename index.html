@@ -577,6 +577,15 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_docker_netzwerk">27.1. Docker-Netzwerk</a></li>
 </ul>
 </li>
+<li><a href="#_2023_04_14">28. 2023-04-14</a>
+<ul class="sectlevel2">
+<li><a href="#_testrückgabe_test03w">28.1. Testrückgabe test03w</a></li>
+<li><a href="#_dockerfile_wiederholt">28.2. Dockerfile wiederholt</a></li>
+<li><a href="#_git_fork">28.3. Git - Fork</a></li>
+<li><a href="#_git_templates">28.4. Git - Templates</a></li>
+<li><a href="#_testen_2">28.5. Testen</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -2646,10 +2655,147 @@ RUN set -x \
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_2023_04_14"><a class="anchor" href="#_2023_04_14"></a>28. 2023-04-14</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_testrückgabe_test03w"><a class="anchor" href="#_testrückgabe_test03w"></a>28.1. Testrückgabe test03w</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_dockerfile_wiederholt"><a class="anchor" href="#_dockerfile_wiederholt"></a>28.2. Dockerfile wiederholt</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_git_fork"><a class="anchor" href="#_git_fork"></a>28.3. Git - Fork</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_git_templates"><a class="anchor" href="#_git_templates"></a>28.4. Git - Templates</h3>
+
+</div>
+<div class="sect2">
+<h3 id="_testen_2"><a class="anchor" href="#_testen_2"></a>28.5. Testen</h3>
+<div class="sect3">
+<h4 id="_was_testet_man"><a class="anchor" href="#_was_testet_man"></a>28.5.1. Was testet man?</h4>
+<div class="sect4">
+<h5 id="_teststrategien"><a class="anchor" href="#_teststrategien"></a>Teststrategien</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>bei Datenbanken</p>
+<div class="ulist">
+<ul>
+<li>
+<p>CRUD-Funktionalität</p>
+<div class="ulist">
+<ul>
+<li>
+<p>CREATE - Erstellen eines Datensatzen einer Entity Klasse in der Entity-Table</p>
+</li>
+<li>
+<p>READ - Lesen eines Datensatzes und erstellen des zugehörigen Java - Objekts</p>
+</li>
+<li>
+<p>UPDATE - Ändern eines Java - Objekts und diese Änderungen werden in der zugehörigen DB-Tabelle gespeichert</p>
+</li>
+<li>
+<p>DELETE - Löschen eines Java - Objekts mit dazugehörogem Löschen in der Datenbank</p>
+<div class="admonitionblock tip">
+<table>
+<tr>
+<td class="icon">
+<i class="fa icon-tip" title="Tip"></i>
+</td>
+<td class="content">
+Man beginnt mit den Stammdaten (ohne Abhängigkeiten zu anderen Tabelle)
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li>
+<p>Bsp:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Nicht Zimmer, sondern Hotel als erste Klasse testen</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Transaktionen nicht vergessen</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>User Stories (Use-Cases, Anwendungsfälle) testen</p>
+<div class="ulist">
+<ul>
+<li>
+<p>zB Reise buchen</p>
+</li>
+<li>
+<p>zB Reise stornieren</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Grenzwertanalyse - Grenzwerte werden getestet</p>
+<div class="ulist">
+<ul>
+<li>
+<p>zB Alter von 450 Jahen bei Personen - wie reagiert das System</p>
+</li>
+<li>
+<p>Alter von -10 Jahren</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Äquivalenzklassenanalyse &#8594; Äquivalenzklassen identifizieren und aus jeder Klasse einen Wert testen und die Grenzen dieser Klasse</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Bsp: Eintrittspeise: Kinder frei, Jugendliche 5 €, Erwachsene 50 €, Pensionisten 20€</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Sind drei Äquivalenzklassen (alle Eingabewerte innerhlb einer solchen Klasse ergebn des selben Ausgabewert)</p>
+</li>
+<li>
+<p>Bsp: Kind mit 3J &#8594; gratis</p>
+</li>
+<li>
+<p>Kind mit 5 J &#8594; gratis</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Exceptions testen</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-03-31 18:11:20 UTC
+Last updated 2023-04-14 07:41:53 UTC
 </div>
 </div>
 </body>
