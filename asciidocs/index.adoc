@@ -1012,11 +1012,56 @@ RUN set -x \
 
 === Docker-Netzwerk
 
+== 2023-04-14
+
+=== Testrückgabe test03w
+
+=== Dockerfile wiederholt
+
+=== Git - Fork
+
+=== Git - Templates
+
+=== Testen
+
+==== Was testet man?
+
+===== Teststrategien
+
+* bei Datenbanken
+** CRUD-Funktionalität
+*** CREATE - Erstellen eines Datensatzen einer Entity Klasse in der Entity-Table
+*** READ - Lesen eines Datensatzes und erstellen des zugehörigen Java - Objekts
+*** UPDATE - Ändern eines Java - Objekts und diese Änderungen werden in der zugehörigen DB-Tabelle gespeichert
+*** DELETE - Löschen eines Java - Objekts mit dazugehörogem Löschen in der Datenbank
++
+TIP: Man beginnt mit den Stammdaten (ohne Abhängigkeiten zu anderen Tabelle)
+
+*** Bsp:
+***** Nicht Zimmer, sondern Hotel als erste Klasse testen
+
+** Transaktionen nicht vergessen
 
 
+* User Stories (Use-Cases, Anwendungsfälle) testen
+
+** zB Reise buchen
+** zB Reise stornieren
+
+* Grenzwertanalyse - Grenzwerte werden getestet
+
+** zB Alter von 450 Jahen bei Personen - wie reagiert das System
+** Alter von -10 Jahren
+
+* Äquivalenzklassenanalyse -> Äquivalenzklassen identifizieren und aus jeder Klasse einen Wert testen und die Grenzen dieser Klasse
+
+** Bsp: Eintrittspeise: Kinder frei, Jugendliche 5 €, Erwachsene 50 €, Pensionisten 20€
+*** Sind drei Äquivalenzklassen (alle Eingabewerte innerhlb einer solchen Klasse ergebn des selben Ausgabewert)
+*** Bsp: Kind mit 3J -> gratis
+*** Kind mit 5 J -> gratis
 
 
-
+* Exceptions testen
 
 
 
