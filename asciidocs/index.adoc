@@ -1,4 +1,5 @@
 = Lecture Notes 22/23 - 3ahitm - ITP
+
 ifndef::imagesdir[:imagesdir: images]
 :icons: font
 :experimental:
@@ -18,10 +19,10 @@ endif::backend-html5[]
 
 === Asciidoctor
 
-
 === Kreativitätstechniken
 
-* bis inkl. Mindmap
+* bis inkl.
+Mindmap
 
 == 2022-09-30
 
@@ -55,7 +56,6 @@ class Person
 
 
 === SWOT
-
 
 === Projektziele
 
@@ -118,7 +118,6 @@ ifdef::backend-html5[]
 
 === Pflichtenheft
 
-
 |===
 |Phase |Beschreibung |Beispiel
 
@@ -146,13 +145,11 @@ a|
 |Die SuS lernen einfacher eine Programmiersprache, ...
 |===
 
-
 === Git Branching Rules
 
 * https://lutece.paris.fr/support/wiki/git.html[Git Branching Rules^]
 
 image::git-developer-branch.png[]
-
 
 == 2022-10-17 Projektanträge durchgesehen
 
@@ -215,7 +212,6 @@ include::plantuml/projektantrag.puml[]
 ----
 ====
 
-
 === UML
 
 * Was ist ein Modell?
@@ -259,7 +255,6 @@ class Person {
 ** 1:1
 ** \*:*
 
-
 == 2022-11-11
 
 === Notation
@@ -271,7 +266,6 @@ class Person {
 image::complete-vs-incomplete.png[]
 
 image::disjoint-vs-overlapping.png[]
-
 
 [plantuml,cld_1_n,png]
 ----
@@ -334,7 +328,6 @@ Aktie "*" --> "1" Firma
 
 image::lesen-von-beziehungen.jpeg[]
 
-
 === Domain Object Model (DOM)
 
 * Nicht zu verwechseln mit einem *Document Object Model* (in einem HTML-Dokument)
@@ -353,7 +346,8 @@ image::lesen-von-beziehungen.jpeg[]
 ** Bsp PKW
 *** Transport von Personen
 *** Transport von Gütern
-*** ev. Statussymbol
+*** ev.
+Statussymbol
 
 [plantuml,demo5,png]
 ----
@@ -388,6 +382,7 @@ bis Montag 21.11.2022
 * README.adoc
 * asciidoc-Verzeichnis
 * backend
+
 [source,asciidoc]
 ----
 = Projekt XY
@@ -431,7 +426,6 @@ CAUTION: ACHTUNG
 
 image::projekt-leitfaden.png[]
 
-
 == 2022-11-21
 
 === Anforderungen an das Projekt-Repository
@@ -449,7 +443,6 @@ image::projekt-leitfaden.png[]
 
 siehe https://www.deckweiss.at/post/wireframes-mockups-und-prototypen-was-wann-und-warum[Wireframes, Mockups und Prototypen: Was, wann und warum?^]
 
-
 == 2022-11-25
 
 === Teststoff besprochen
@@ -464,8 +457,8 @@ siehe https://www.deckweiss.at/post/wireframes-mockups-und-prototypen-was-wann-u
 
 image::v-modell.png[]
 
-
 == 2022-12-05
+
 Mitschrift: Ruep Michael
 
 Was
@@ -508,11 +501,10 @@ image::feinentwurf.png[]
 ** Durchführung (programmieren)
 ** Das Ergebnis der Implementierung ist dann der Code
 
-
 == 2022-12-09
 
-
 === Anforderungsanalyse
+
 Erhebung der Anforderungen für den Kunden
 
 Mitschrift: Ruep Michael
@@ -521,19 +513,18 @@ Mitschrift: Ruep Michael
 
 
 ==== Interview
+
 Wird am häufigsten als Ist-Aufnahmetechnik eingesetzt
 
 * Standardisiert (fixe fragen)
 * Halbstandardisiert (teilweise fix)
 * Nicht-Standardisiert (benötigt gute Interviewer)
 
-
 Offene Frage:
 Bsp: Wie geht es Ihnen?
 
 Geschlossene Frage:
-antwort: ja nein
-Bsp: Hast du einen Führerschein?
+antwort: ja nein Bsp: Hast du einen Führerschein?
 
 Indirekte Frage:
 Hast du den Autoführerschein (um das ungefähre alter eingrenzen zu können).
@@ -543,8 +534,7 @@ Direkt das fragen, was man erfahren will.
 
 * Interviewvorbereitung (interview preparation)
 * Interviewdurchführung (interview session)
-* Interviewauswertung (interview follow up)
-Bsp: Das Erfahrene niederschreiben
+* Interviewauswertung (interview follow up) Bsp: Das Erfahrene niederschreiben
 
 *Vorteile:*
 
@@ -557,8 +547,8 @@ Bsp: Das Erfahrene niederschreiben
 - Anforderung and die Fähigkeiten der Interviewer
 - Störung des Interviewten bei der Aufgaben erfüllung
 
-
 ==== Fragebogen
+
 * quantitativ: Zahlen
 
 * qualitativ: Meinungsbilder (wie geht es jemanden damit)
@@ -577,13 +567,12 @@ Es gibt Individual und Gruppenfragebögen
 - Missverständnisse möglich
 - aufwendige Auswertung bei freien Fragen
 
-
 ==== Beobachtung
+
 Direkte Erfassungsmethode, sinnliche Wahrnehmungen des Planers für zusätzliche Informationen.
 
 * Man fragt nicht nur
-** was gewollt ist, was das Problem ist was gemeint ist
-(*was mann bekommt*) man sagt auch
+** was gewollt ist, was das Problem ist was gemeint ist (*was mann bekommt*) man sagt auch
 ** das und das eben nicht (*was man nicht bekommt*), somit fallen Missverständnisse auf.
 
 * Formen:*
@@ -595,8 +584,8 @@ Direkte Erfassungsmethode, sinnliche Wahrnehmungen des Planers für zusätzliche
 
 * Multimomentaufnahme: Stichprobenartig (nicht nur genau an einem Zeitpunkt, immer wieder, um eine Übersicht über die vom Mitarbeiter durchgeführten Tätigkeiten zu bekommen)
 
-
 ==== Selbstaufschreibung
+
 Strukturierte Aufzeichnung relevanter Ereignisse und Handlungen
 
 *Vorgehensrahmen:*
@@ -617,6 +606,7 @@ Strukturierte Aufzeichnung relevanter Ereignisse und Handlungen
 - bewusste Fälschung
 
 == 2022-12-16
+
 Mitschrift: Adelwöhrer Leonie
 
 === Git-Flow
@@ -638,7 +628,6 @@ Mitschrift: Adelwöhrer Leonie
 
 image::git-overview2.png[]
 
-
 === V-Modell
 
 * Validierung = Lösen wir das Problem?
@@ -657,7 +646,8 @@ image::git-overview2.png[]
 Scrum (Haufen => agil heißt flink, beweglich)
 
 * kleine Einheiten
-* umfangreiche Dokumentation (im Code bspw. AsciiDoc)
+* umfangreiche Dokumentation (im Code bspw.
+AsciiDoc)
 * Verträge
 * Fokus, Leistung
 
@@ -667,29 +657,33 @@ Scrum (Haufen => agil heißt flink, beweglich)
 ** Sprint (Bis wann?)
 ** lauffähige inkrementell verbesserte Software
 
-* Warum Domainmodell und kein Klassendiagramm? Da wir keine technischen Daten Benötigen!
+* Warum Domainmodell und kein Klassendiagramm?
+Da wir keine technischen Daten Benötigen!
 
 Git
 
 * Versionierungssoftware
 * Architektur... Local Repo, Remote Repo
 
-
 === Dokumentenauswertung
-Leicht verfügbare Informationsquelle. Auswertung der verfügbaren und relevanten Dokumente (heute meist elektronisch). Damit man weiß welche daten man hat.
+
+Leicht verfügbare Informationsquelle.
+Auswertung der verfügbaren und relevanten Dokumente (heute meist elektronisch).
+Damit man weiß welche daten man hat.
 
 - Dokumentation des Systems
 - Studien über das System
 - Belege und Formulare
 
 === Weitere Methoden
+
 - Snowcards (Anforderungskarten)
 - Problem-Frames
 - QFD - Quality Function Deployment
 - Anforderungs Workshop
 
-
 == 2022-12-19
+
 Mitschrift: Nico Wakolbinger
 
 === Scrum
@@ -704,9 +698,7 @@ image::the-scrum-framework-large.png[]
 ** Sprint Planning
 
 .source: https://scrumguide.de/user-story/
-+++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YYkuwOSXOck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-+++
++++ <iframe width="560" height="315" src="https://www.youtube.com/embed/YYkuwOSXOck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> +++
 
 
 
@@ -714,20 +706,18 @@ image::the-scrum-framework-large.png[]
 
 ** User Stories
 ** *Was* bekomme ich? (sachliche Komponente)
-** Eine User Story oder Anwendererzählung ist eine kurze Beschreibung (Story) dessen, was ein Benutzer (User) will. Eine User Story besteht aus ein paar Sätzen, in denen beschrieben wird, was der Benutzer des Produkts machen will bzw. muss. Sie ist im Regelfall wenig detailliert und sollte auf ein post-it passen. (source: https://scrumguide.de/user-story/)
+** Eine User Story oder Anwendererzählung ist eine kurze Beschreibung (Story) dessen, was ein Benutzer (User) will.
+Eine User Story besteht aus ein paar Sätzen, in denen beschrieben wird, was der Benutzer des Produkts machen will bzw. muss.
+Sie ist im Regelfall wenig detailliert und sollte auf ein post-it passen. (source: https://scrumguide.de/user-story/)
 
-+++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2xSKHVyj7CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-+++
++++ <iframe width="560" height="315" src="https://www.youtube.com/embed/2xSKHVyj7CM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> +++
 
 
 * Sprint Backlog
 ** User Stories werden in Task zerlegt (verfeinert)
 ** *Wie* bekomme ich etwas?
 
-+++
-<iframe width="560" height="315" src="https://www.youtube.com/embed/J0Hb35HC4aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-+++
++++ <iframe width="560" height="315" src="https://www.youtube.com/embed/J0Hb35HC4aM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> +++
 
 * Sprint: *wann* bekomme ich etwas?
 
@@ -736,7 +726,6 @@ image::the-scrum-framework-large.png[]
 Inkrementieren -> um 1 erhöhen, um ein Stück erhöhen, ...
 
 Nach jedem Sprint ist das Produkt lauffähig -> dieser Stand des Produkts wird "*increment*" genannt
-
 
 ==== Rollen im Scrum
 
@@ -761,19 +750,18 @@ Nach jedem Sprint ist das Produkt lauffähig -> dieser Stand des Produkts wird "
 .source: https://www.thescrummaster.co.uk/wp-content/uploads/2021/03/TheSimpleGuideToScrum-1Pager.pdf[The Simple Guide To Scrum - 1 Pager^]
 image::scrum-team.png[]
 
-
 === User Story
 
 Unterteilung in Tasks
 
 -> Sprint Backlog
 
-
 === Burndown Chart
 
 Ermöglicht den Fortschritt eines Sprints grafisch darzustellen.
 
 == 2022-12-23 Docker
+
 Mitschrift: Nico Wakolbinger
 
 Derivat: Abkömmling
@@ -784,9 +772,7 @@ Betriebssystem, Kernel
 
 Packetmanager: z.B. apt, ...
 
-
 siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
-
 
 == 2023-01-09
 
@@ -800,10 +786,7 @@ siehe: https://htl-leonding-college.github.io/docker-lecture-notes/
 ** Zustandsdiagramm
 ** Aktivitätsdiagramm
 
-
-
 == 2023-02-17
-
 
 * Bis nach den Semesterferien
 ** Cld fertigstellen
@@ -819,9 +802,6 @@ IMPORTANT: Für die einzelnen Aktivitäten im youtrack User Stories und tasks an
 <iframe width="560" height="315" src="https://www.youtube.com/embed/XUIse_dzdGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 ++++
 
-
-
-
 == 2023-02-27
 
 === Docker
@@ -829,7 +809,6 @@ IMPORTANT: Für die einzelnen Aktivitäten im youtrack User Stories und tasks an
 * Docker ist leichtgewichtige Virtualiserung.
 
 ==== Warum Docker?
-
 
 image::works-on-my-machine.png[]
 
@@ -859,7 +838,6 @@ Fragen:
 * ...
 
 == 2023-03-10
-
 
 image::scrum-und-v-modell.png[]
 
@@ -899,7 +877,6 @@ image::unit-tests.png[]
 
 === Zustandsdiagramme
 
-
 == 2023-03-13
 
 === Forstsetzung Docker
@@ -908,9 +885,7 @@ image::unit-tests.png[]
 
 * zB hub.docker.com
 
-
 ==== Bind Mounts vs Volumes
-
 
 ==== Hausübung
 
@@ -921,8 +896,6 @@ image::unit-tests.png[]
 ** Erstellung eines Script `stop-db-container.sh` (der Container muss automatisch gelöscht werden)
 ** Nach einem neuerlichen Start müssen die Daten wieder vorhanden sein
 ** Erstellen Sie in IntelliJ eine Datenbank-Connection zu Ihrer Maria-Db
-
-
 
 == 2023-03-24
 
@@ -935,7 +908,8 @@ image::unit-tests.png[]
 * Container
 * Image
 * Netzwerk
-* ev. Volume oder Bind Mount
+* ev.
+Volume oder Bind Mount
 
 ==== Image
 
@@ -1007,7 +981,6 @@ RUN set -x \
 ** Dies ist wichtig, da Docker für jedes einzelne Kommando eine eigene Schicht erstellt.
 ** Mit && können mehrere Befehle zu einer Schicht (Layer) zusammengefasst werden.
 
-
 == 2023-03-31
 
 === Docker-Netzwerk
@@ -1056,16 +1029,24 @@ TIP: Man beginnt mit den Stammdaten (ohne Abhängigkeiten zu anderen Tabelle)
 * Äquivalenzklassenanalyse -> Äquivalenzklassen identifizieren und aus jeder Klasse einen Wert testen und die Grenzen dieser Klasse
 
 ** Bsp: Eintrittspeise: Kinder frei, Jugendliche 5 €, Erwachsene 50 €, Pensionisten 20€
-*** Sind drei Äquivalenzklassen (alle Eingabewerte innerhlb einer solchen Klasse ergebn des selben Ausgabewert)
+*** Sind drei Äquivalenzklassen (alle Eingabewerte innerhalb einer solchen Klasse ergebn des selben Ausgabewert)
 *** Bsp: Kind mit 3J -> gratis
 *** Kind mit 5 J -> gratis
 
 
 * Exceptions testen
 
+==== Naming der Tests
 
+The name of your test should consist of three parts:
 
+* The name of the method being tested.
+* The scenario under which it's being tested.
+* The expected behavior when the scenario is invoked
 
-
+//--
+* Sources:
+** https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#naming-your-tests[microsoft^]
+** https://medium.com/@stefanovskyi/unit-test-naming-conventions-dd9208eadbea[Unit Test Naming Conventions^]
 
 
