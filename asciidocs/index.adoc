@@ -1049,4 +1049,55 @@ The name of your test should consist of three parts:
 ** https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-best-practices#naming-your-tests[microsoft^]
 ** https://medium.com/@stefanovskyi/unit-test-naming-conventions-dd9208eadbea[Unit Test Naming Conventions^]
 
+== 2023-04-17
+
+=== assertj-Tipps
+
+image::assertj-using-recursive-comparison.jpg[]
+
+image::assertj-satiesfies.jpg[]
+
+=== Übung Dockerfile
+
+* führen Sie die Dockerfile-Übungen aus den https://htl-leonding-college.github.io/docker-lecture-notes/dockerfile.html#_create_a_docker_image[Technology Notes^]
+
+
+=== Übung Youtrack für das eigene Projekt
+
+* Erstellen Sie im Product-Backlog mehrere UserStories und Tasks für eine, max. 2 User Stories
+* Verschieben Sie diese 2 User Stories mit ihren Tasks in das Sprint-Backlog
+* Führen Sie nun die in den Tasks angeführten Aufgaben durch und "verbinden" sie die Commits mit den jeweiligen Tasks (Issues)
+
+
+== 2023-04-24
+
+[source,asciidoc]
+----
+= Überschrift
+vn nn
+1.0.0, {docdate}
+ifndef::imagesdir[:imagesdir: images]
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+// :toc:
+// :toclevels: 1
+:experimental:
+//https://gist.github.com/dcode/0cfbf2699a1fe9b46ff04c41721dda74?permalink_comment_id=3948218
+ifdef::env-github[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+endif::[]
+
+[discrete]
+== Themenschwerpunkte
+----
+
+== 2023-04-28
+
+=== Wdhlg Docker
+
+=== docker-compose
 
