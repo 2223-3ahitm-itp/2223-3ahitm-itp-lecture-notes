@@ -714,6 +714,12 @@ pre.rouge .gs {
 <li><a href="#_docker_compose">31.2. docker-compose</a></li>
 </ul>
 </li>
+<li><a href="#_2023_05_05">32. 2023-05-05</a></li>
+<li><a href="#_2023_05_15">33. 2023-05-15</a>
+<ul class="sectlevel2">
+<li><a href="#_übung_docker_compose">33.1. Übung docker-compose</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -3034,10 +3040,122 @@ vn nn
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="_2023_05_05"><a class="anchor" href="#_2023_05_05"></a>32. 2023-05-05</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="_2023_05_15"><a class="anchor" href="#_2023_05_15"></a>33. 2023-05-15</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Wiederholung Docker</p>
+</li>
+<li>
+<p>Wiederholung docker-compose</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_übung_docker_compose"><a class="anchor" href="#_übung_docker_compose"></a>33.1. Übung docker-compose</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>erstellen Sie ein File <code>docker-compose.yaml</code> welches folgende Dienste beinhaltet</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Service backend</p>
+<div class="ulist">
+<ul>
+<li>
+<p>beinhaltet eine php-Anwendung</p>
+</li>
+<li>
+<p>greift auf eine mariadb zu</p>
+</li>
+<li>
+<p>wird mittels einem Webserver deployed</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Service webserver</p>
+<div class="ulist">
+<ul>
+<li>
+<p>ein nginx Server oder Apache httpd Webserver</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Service db</p>
+<div class="ulist">
+<ul>
+<li>
+<p>wird vom Service backend benutzt</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Service phpmyadmin</p>
+</li>
+<li>
+<p>Netzwerk my-network mit ip 10.0.2.0/24</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>erstellen Sie <strong>ein</strong> asciidoc-File, dass direkt die source-Files (docker-compose.yaml) in das sciidoc-File included. (vgl. <a href="https://github.com/htl-leonding-college/asciidoctor-docker-template/blob/master/asciidocs.demo/demo.adoc" target="_blank" rel="noopener">Demo für Asciidoctor-Features</a>)</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Es darf nicht das gesamte File auf einmal inkludiert werden, sondern nur die einzelnen Teile hintereinander</p>
+</li>
+<li>
+<p>verwenden Sie <a href="https://docs.asciidoctor.org/asciidoc/latest/macros/keyboard-macro/" target="_blank" rel="noopener">keyb-Macros</a></p>
+</li>
+<li>
+<p>Achten Sie auf eine saubere Präambel und allgemein ein sauberes Asciidoc-File</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Abgabe: siehe <a href="https://edufs.edu.htl-leonding.ac.at/moodle/mod/url/view.php?id=162267" target="_blank" rel="noopener">moodle</a></p>
+</li>
+<li>
+<p>Quellen:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><a href="https://hostadvice.com/how-to/web-hosting/how-to-deploy-a-php-application-using-docker-compose/" target="_blank" rel="noopener">How To Deploy a PHP Application Using Docker-compose</a></p>
+</li>
+<li>
+<p><a href="https://www.cloudbees.com/blog/using-docker-compose-for-php-development" target="_blank" rel="noopener">PHP als Dockerfile</a></p>
+</li>
+<li>
+<p><a href="https://github.com/rhamdeew/docker-compose-php/blob/master/docker-compose.yml" class="bare">https://github.com/rhamdeew/docker-compose-php/blob/master/docker-compose.yml</a></p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2023-04-28 07:50:33 UTC
+Last updated 2023-05-15 14:03:27 UTC
 </div>
 </div>
 </body>
