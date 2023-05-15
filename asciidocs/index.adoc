@@ -1101,3 +1101,39 @@ endif::[]
 
 === docker-compose
 
+== 2023-05-05
+
+== 2023-05-15
+
+* Wiederholung Docker
+* Wiederholung docker-compose
+
+=== Übung docker-compose
+
+* erstellen Sie ein File `docker-compose.yaml` welches folgende Dienste beinhaltet
+** Service backend
+*** beinhaltet eine php-Anwendung
+*** greift auf eine mariadb zu
+*** wird mittels einem Webserver deployed
+** Service webserver
+*** ein nginx Server oder Apache httpd Webserver
+** Service db
+*** wird vom Service backend benutzt
+** Service phpmyadmin
+** Netzwerk my-network mit ip 10.0.2.0/24
+
+* erstellen Sie *ein* asciidoc-File, dass direkt die source-Files (docker-compose.yaml) in das sciidoc-File included. (vgl. https://github.com/htl-leonding-college/asciidoctor-docker-template/blob/master/asciidocs.demo/demo.adoc[Demo für Asciidoctor-Features^])
+** Es darf nicht das gesamte File auf einmal inkludiert werden, sondern nur die einzelnen Teile hintereinander
+** verwenden Sie https://docs.asciidoctor.org/asciidoc/latest/macros/keyboard-macro/[keyb-Macros^]
+** Achten Sie auf eine saubere Präambel und allgemein ein sauberes Asciidoc-File
+
+* Abgabe: siehe https://edufs.edu.htl-leonding.ac.at/moodle/mod/url/view.php?id=162267[moodle^]
+
+* Quellen:
+** https://hostadvice.com/how-to/web-hosting/how-to-deploy-a-php-application-using-docker-compose/[How To Deploy a PHP Application Using Docker-compose^]
+** https://www.cloudbees.com/blog/using-docker-compose-for-php-development[PHP als Dockerfile^]
+** https://github.com/rhamdeew/docker-compose-php/blob/master/docker-compose.yml
+
+
+
+
