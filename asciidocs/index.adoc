@@ -1135,5 +1135,15 @@ endif::[]
 ** https://github.com/rhamdeew/docker-compose-php/blob/master/docker-compose.yml
 
 
+== 2023-05-22
+
+=== Commits
+
+* Es wird vereinbart für die Commit-Messages folgende Formate zu verwenden:
+
+** https://www.conventionalcommits.org[^]
+** im Besonderen: https://github.com/conventional-changelog/commitlint/tree/master/%40commitlint/config-conventional#commitlintconfig-conventional[@commitlint/config-conventional^]
+** und auch https://github.com/angular/angular/blob/16.0.x/CONTRIBUTING.md#-commit-message-format[Angular conventions^]
+
 
 
