@@ -1146,4 +1146,12 @@ endif::[]
 ** und auch https://github.com/angular/angular/blob/16.0.x/CONTRIBUTING.md#-commit-message-format[Angular conventions^]
 
 
+== 2023-06-16
+
+=== 4. Leistungsfeststellung Wiederholungstermin
+
+=== Lernstrategien
+
+image::lernstrategie1.png[]
+image::lernstrategie2.png[]
 
