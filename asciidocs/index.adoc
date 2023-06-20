@@ -1155,3 +1155,7 @@ endif::[]
 image::lernstrategie1.png[]
 image::lernstrategie2.png[]
 
+=== Iteration in der Projektarbeit
+
+image::iteration.png[]
+
